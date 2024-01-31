@@ -45,7 +45,7 @@ const Crafts: React.FunctionComponent = () => {
                   className="mt-3"
                   onClick={() => window.open('https://crafts.rishavmehra.me')}
                 >
-                  Visit crafts.rishavmehra.me
+                  Coming Soon
                 </Button>
               </div>
             </Callout>
