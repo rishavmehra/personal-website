@@ -14,7 +14,7 @@ interface MetaHeadProps extends React.MetaHTMLAttributes<HTMLMetaElement> {
 
 const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
   title = 'Rishav Mehra',
-  description = 'Hey! I am an engineer (designer, most of the times), learning how to build and design scalable websites and applications.',
+  description = "Hey there! I'm a DevOps/Backend engineer, constantly honing my skills in crafting and maintaining scalable infrastructure and applications",
   embedSource = 'default',
   ...attr
 }) => {
