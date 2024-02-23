@@ -33,7 +33,7 @@ const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
         property="og:image"
         content={
           embedSource === 'default'
-            ? 'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/portfolio?updatedAt=1679493727587&tr=w-1200%2Ch-630%2Cfo-auto'
+            ? 'https://ik.imagekit.io/uxywkogar/new_banner.png?updatedAt=1706610665794&tr=w-1200%2Ch-675%2Cfo-auto'
             : embedSource?.og
         }
       />
@@ -42,7 +42,7 @@ const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
         property="twitter:card"
         content={
           embedSource === 'default'
-            ? 'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/portfolio?updatedAt=1679493727587&tr=w-1200%2Ch-675%2Cfo-auto'
+            ? 'https://ik.imagekit.io/uxywkogar/new_banner.png?updatedAt=1706610665794&tr=w-1200%2Ch-675%2Cfo-auto'
             : embedSource?.twitter
         }
       />
@@ -53,7 +53,7 @@ const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
         property="twitter:image"
         content={
           embedSource === 'default'
-            ? 'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/portfolio?updatedAt=1679493727587&tr=w-1200%2Ch-675%2Cfo-auto'
+            ? 'https://ik.imagekit.io/uxywkogar/new_banner.png?updatedAt=1706610665794&tr=w-1200%2Ch-675%2Cfo-auto'
             : embedSource?.twitter
         }
       />

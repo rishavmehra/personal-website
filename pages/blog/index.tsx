@@ -26,10 +26,10 @@ const BlogView: React.FunctionComponent = () => {
         description={'Design and Technical Blogs by Rishav Mehra.'}
         embedSource={{
           twitter:
-            'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/blog?updatedAt=1679689643318&tr=w-1200%2Ch-675%2Cfo-auto',
+            'https://ik.imagekit.io/uxywkogar/new_banner.png?updatedAt=1706610665794&tr=w-1200%2Ch-675%2Cfo-auto',
           linkedin:
-            'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/blog?updatedAt=1679689643318&tr=w-1200%2Ch-628%2Cfo-auto',
-          og: 'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/blog?updatedAt=1679689643318',
+            'https://ik.imagekit.io/uxywkogar/new_banner.png?updatedAt=1706610665794&tr=w-1200%2Ch-675%2Cfo-auto',
+          og: 'https://ik.imagekit.io/uxywkogar/new_banner.png?updatedAt=1706610665794&tr=w-1200%2Ch-675%2Cfo-auto',
         }}
       />
       <div className="blog-view-container" id="blog">
