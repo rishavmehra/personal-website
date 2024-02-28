@@ -24,8 +24,8 @@ export const getExperiences = function (): ExperienceItemProps[] {
     {
       experienceTitle: 'DevOps/Cloud Engineer',
       experienceDescription: [
-        'Building a complete platform for buying/purchasing digital asset indexes and managing your crypto portfolio.',
-        'Using Javascript, React, NextJS, TailwindCSS for building frontend and UI. Using Figma to design layouts and design system.',
+        'Responsible for development, and deployment using CI/CD.',
+        'Responsible for delivering blogs, technical documentation, and knowledge articles.',
       ],
       experienceOrg: {
         name: 'Pernicia',
