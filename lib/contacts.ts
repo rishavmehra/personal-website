@@ -40,7 +40,7 @@ export const getContacts = function (): ContactItemProps[] {
     {
       title: 'Resume',
       link: {
-        display: 'rishavmehra.me/resume.pdf',
+        display: 'rshv.xyz/resume.pdf',
         url: '/resume',
       },
     },

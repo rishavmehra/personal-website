@@ -38,7 +38,7 @@ const ResumeView: React.FunctionComponent = () => {
             <Button
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/1On1LCB1tFDeisMEoSgYjmPFQGjsNs1GW/view?usp=sharing',
+                  'https://drive.google.com/file/d/1LaT03Xde0ivYXSt8T0i81DYtycPnMKAH/view?usp=sharing',
                 )
               }>
               {'Resume on Drive'}

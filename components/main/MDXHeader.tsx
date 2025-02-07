@@ -9,7 +9,7 @@ import ViewContainer from '@/components/layout/ViewContainer';
 import Button from '@/components/ui/Button';
 import MetaHead from '../seo/MetaHead';
 
-interface MDXHeaderProps extends React.HTMLAttributes<HTMLDivElement> {}
+interface MDXHeaderProps extends React.HTMLAttributes<HTMLDivElement> { }
 
 const MDXHeader: React.FunctionComponent<MDXHeaderProps> = ({
   className,
@@ -76,11 +76,11 @@ const MDXHeader: React.FunctionComponent<MDXHeaderProps> = ({
                 className={cn(
                   'select-none',
                   !copyAction ||
-                    'bg-transparent border-zinc-800 text-zinc-800 hover:brightness-105',
+                  'bg-transparent border-zinc-800 text-zinc-800 hover:brightness-105',
                 )}
                 onClick={() => {
                   copyToClipboard({
-                    content: `https://rishavmehra.me${pathName}`,
+                    content: `https://rshv.xyz${pathName}`,
                   });
                   setCopyAction(true);
                 }}>

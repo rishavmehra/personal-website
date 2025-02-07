@@ -4,12 +4,12 @@ interface MetaHeadProps extends React.MetaHTMLAttributes<HTMLMetaElement> {
   title?: string;
   description?: string;
   embedSource?:
-    | 'default'
-    | {
-        twitter?: string;
-        linkedin?: string;
-        og?: string;
-      };
+  | 'default'
+  | {
+    twitter?: string;
+    linkedin?: string;
+    og?: string;
+  };
 }
 
 const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
@@ -26,7 +26,7 @@ const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
       <meta name="description" content={description} />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.rishavmehra.me/" />
+      <meta property="og:url" content="https://www.rshv.xyz/" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta
@@ -46,7 +46,7 @@ const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
             : embedSource?.twitter
         }
       />
-      <meta property="twitter:url" content="https://www.rishavmehra.me/" />
+      <meta property="twitter:url" content="https://www.rshv.xyz/" />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta

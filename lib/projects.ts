@@ -60,6 +60,27 @@ export const getProjects = function (): ProjectItemProps[] {
       status: 'Ongoing',
     },
     {
+      projectTitle: 'GCP MultiService Deployment',
+      projectData: {
+        relatedLinks: [
+          {
+            label: "Github",
+            link: 'https://github.com/rishavmehra/rns',
+          },
+        ],
+      },
+      description: [
+        "Designed and implemented a complete infrastructure on Google Cloud Platform (GCP) using Terraform, including a VPC network, Cloud SQL instance, Cloud Run service, and load balancer for seamless application hosting and scalability.",
+        "Leveraged Terraform's infrastructure-as-code capabilities to create a modular and reusable architecture, ensuring consistent, scalable, and operationally efficient deployments tailored to dynamic workloads.",
+        "Engineered the infrastructure with adaptability in mind, enabling it to meet evolving business requirements while maintaining security, reliability, and ease of management in a cloud-native environment.",
+        "Prioritized maintainability and simplicity in the design, empowering developers and operations teams to deploy, manage, and scale applications with confidence and minimal overhead."
+      ],
+      tech: [' Terraform ', ' GCP ',],
+      // @ts-ignore
+      category: [' Terraform ', ' GCP ',],
+      status: 'Open Source',
+    },
+    {
       projectTitle: 'HA using AWS',
       projectData: {
         liveURL: 'https://www.loom.com/share/924c173af7744d03b9f8ce2a46551be1?sid=bd764a9a-fd3b-4fb5-a15b-446edb8f75dc',
